@@ -76,3 +76,11 @@ class Validator:
 
                     if error_range_message:
                          print(error_range_message)
+
+import platform
+import os
+def clearScreen():
+     OS = platform.system()
+     if OS == "linux":
+          os.system("clear")
+
