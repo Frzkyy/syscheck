@@ -21,7 +21,7 @@ def main():
                case 1:
                     clearScreen()
                     sysinfo.get_info()
-                    input("Press enter to continue")
+                    input("Press enter to continue...")
 
 if __name__ == "__main__":
      main()

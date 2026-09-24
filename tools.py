@@ -78,9 +78,11 @@ class Validator:
                          print(error_range_message)
 
 import platform
-import os
+import subprocess
 def clearScreen():
      OS = platform.system()
-     if OS == "linux":
-          os.system("clear")
+     if OS == "windows":
+          subprocess.run(["cls"])
+     else:
+          subprocess.run(["clear"])
 
