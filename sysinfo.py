@@ -8,6 +8,6 @@ Kernel: {platform.release()}
 Architecture: {platform.machine()}
 Processor: {platform.processor()}
 Hostname: {getpass.getuser()}
-Network Name: {platform.node()}
+Device Name: {platform.node()}
 
 =================================""")
