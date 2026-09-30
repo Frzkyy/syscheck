@@ -79,10 +79,11 @@ class Validator:
 
 import platform
 import subprocess
+import os
 def clearScreen():
      OS = platform.system()
-     if OS == "windows":
-          subprocess.run(["cls"])
+     if OS == "Windows":
+          os.system("cls")
      else:
           subprocess.run(["clear"])
 
